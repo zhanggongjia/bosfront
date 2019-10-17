@@ -1,0 +1,384 @@
+[
+  {
+    "title": "员工管理",
+    "access": "admin:staff:manager",
+    "children": [
+      {
+        "title": "组织架构管理",
+        "access": "admin:staff:organization",
+        "children": [
+          {
+            "title": "新增",
+            "access": "admin:staff:organization:add"
+          },
+          {
+            "title": "删除",
+            "access": "admin:staff:organization:del"
+          }
+        ]
+      },
+      {
+        "title": "员工管理",
+        "access": "admin:super:staff:list",
+
+        "children": [
+          {
+            "title": "新增",
+            "access": "admin:super:staff:add"
+          },
+          {
+            "title": "启用",
+            "access": "admin:super:staff:enable"
+          },
+          {
+            "title": "禁用",
+            "access": "admin:super:staff:disabled"
+          }
+        ]
+      },
+      {
+        "title": "角色管理",
+        "access": "admin:role:list",
+        "children": [
+          {
+            "title": "新增",
+            "access": "admin:role:add"
+          },
+          {
+            "title": "启用",
+            "access": "admin:role:enable"
+          },
+          {
+            "title": "禁用",
+            "access": "admin:role:disabled"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "客户管理",
+
+    "access": "admin:customer:manager",
+    "children": [
+      {
+        "title": "合作客户",
+        "access": "admin:customer:hzkh",
+        "children": [
+          {
+            "title": "新增",
+            "access": "admin:customer:hzkh:add"
+          },
+          {
+            "title": "编辑",
+            "access": "admin:customer:hzkh:del"
+          },
+          {
+            "title": "结束",
+            "access": "admin:customer:hzkh:del"
+          },
+          {
+            "title": "搜索",
+            "access": "admin:customer:hzkh:search"
+          }
+        ]
+      },
+      {
+        "title": "客户池",
+        "access": "admin:customer:khc",
+        "children": [
+          {
+            "title": "新增",
+            "access": "admin:customer:khc:add"
+          },
+          {
+            "title": "编辑",
+            "access": "admin:customer:khc:del"
+          },
+          {
+            "title": "删除",
+            "access": "admin:customer:khc:del"
+          },
+          {
+            "title": "搜索",
+            "access": "admin:customer:khc:search"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "客户公司管理",
+    "access": "admin:customer:manage",
+    "children": [
+      {
+        "title": "客户公司信息录入",
+        "access": "admin:customer:info:in"
+      },
+      {
+        "title": "公司基本信息",
+        "access": "admin:company:jbxx"
+      },
+      {
+        "title": "工商信息录入",
+        "access": "admin:company:gsxx"
+      },
+      {
+        "title": "税务信息登记",
+        "access": "admin:company:swxx"
+      },
+      {
+        "title": "开户信息登记",
+        "access": "admin:company:khxx"
+      },
+      {
+        "title": "公司注销列表",
+        "access": "admin:company:zx:list"
+      }
+    ]
+  },
+  {
+    "title": "财务合同管理",
+    "access": "admin:finance:manager",
+    "children": [
+      {
+        "title": "通用财务数据列表",
+        "access": "admin:finance:ty:list"
+      },
+      {
+        "title": "税务财务管理",
+        "access": "admin:finance:sw:list"
+      },
+      {
+        "title": "合同管理",
+        "access": "admin:finance:ht"
+      },
+      {
+        "title": "通用合同管理",
+        "access": "admin:tyht:list"
+      },
+      {
+        "title": "税务合同管理",
+        "access": "admin:swht:list"
+      },
+      {
+        "title": "合同数据统计",
+        "access": "admin:htsjtj:list"
+      }
+    ]
+  },
+  {
+    "title": "业务管理",
+    "access": "admin:yw:manager",
+    "children": [
+      {
+        "title": "文件流转",
+        "access": "admin:file"
+      },
+      {
+        "title": "申请快递邮寄",
+        "access": "admin:sq:kd:yj"
+      },
+      {
+        "title": "快递信息查看",
+        "access": "admin:kdxxck"
+      },
+      {
+        "title": "代办事项",
+        "access": "admin:dbsx:list"
+      },
+      {
+        "title": "工商业务",
+        "access": "admin:gsyw"
+      },
+      {
+        "title": "工商注册",
+        "access": "admin:gszc"
+      },
+      {
+        "title": "公司变更",
+        "access": "admin:gsbg"
+      },
+      {
+        "title": "公司转让",
+        "access": "admin:gszr"
+      },
+      {
+        "title": "公司注销",
+        "access": "admin:gszx"
+      },
+      {
+        "title": "年报审计",
+        "access": "admin:nbsj"
+      },
+      {
+        "title": "社保公积金",
+        "access": "admin:sbgjj"
+      },
+      {
+        "title": "银行开户",
+        "access": "admin:yhkh"
+      },
+      {
+        "title": "工商异常",
+        "access": "admin:gsyc"
+      },
+      {
+        "title": "税务业务",
+        "access": "admin:swyw",
+        "children": [
+          {
+            "title": "代理记账",
+            "access": "admin:sw:dljz"
+          },
+          {
+            "title": "登记报道",
+            "access": "admin:sw:djbd"
+          },
+          {
+            "title": "发票准购",
+            "access": "admin:sw:fapiao"
+          },
+          {
+            "title": "汇算清缴",
+            "access": "admin:sw:hsqj"
+          },
+          {
+            "title": "旧账梳理",
+            "access": "admin:sw:jzsl"
+          },
+          {
+            "title": "纳税筹划",
+            "access": "admin:sw:nsch"
+          },
+          {
+            "title": "税收筹划",
+            "access": "admin:sw:ssch"
+          },
+          {
+            "title": "税务审计",
+            "access": "admin:sw:sj"
+          },
+          {
+            "title": "税务注销",
+            "access": "admin:sw:zx"
+          },
+          {
+            "title": "税中核定",
+            "access": "admin:sw:hd"
+          },
+          {
+            "title": "出口退税",
+            "access": "admin:sw:ckts"
+          },
+          {
+            "title": "税务异常",
+            "access": "admin:sw:yc"
+          }
+        ]
+      },
+      {
+        "title": "其他业务",
+        "access": "admin:other:yw",
+        "children": [
+          {
+            "title": "登报声明",
+            "access": "admin:other:yw"
+          },
+          {
+            "title": "行政许可",
+            "access": "admin:other:xzxk"
+          },
+          {
+            "title": "认证许可",
+            "access": "admin:other:rzxk"
+          },
+          {
+            "title": "刻章备案",
+            "access": "admin:other:kzba"
+          },
+          {
+            "title": "刻章备案",
+            "access": "admin:other:kzba"
+          },
+          {
+            "title": "审计报告",
+            "access": "admin:other:sjbg"
+          },
+          {
+            "title": "验资摆账",
+            "access": "admin:other:yzbz"
+          },
+          {
+            "title": "其他服务",
+            "access": "admin:other:qtfw"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "库存管理",
+    "access": "admin:kc:manager",
+    "children": [
+      {
+        "title": "库存列表管理",
+        "access": "admin:kc:list"
+      },
+      {
+        "title": "库存转入",
+        "access": "admin:kc:in"
+      }
+    ]
+  },
+  {
+    "title": "领用物品管理",
+    "access": "admin:ly:manager",
+    "children": [
+      {
+        "title": "申请记录列表",
+        "access": "admin:sqjl:list"
+      },
+      {
+        "title": "任务分配员工信息统计",
+        "access": "admin:count"
+      }
+    ]
+  },
+  {
+    "title": "系统设置",
+    "access": "admin:system:manager",
+    "children": [
+      {
+        "title": "地址管理",
+        "access": "admin:system:address:list"
+      },
+      {
+        "title": "工商地址信息",
+        "access": "admin:system:gs"
+      },
+      {
+        "title": "税务地址信息",
+        "access": "admin:system:sw"
+      },
+      {
+        "title": "办事处",
+        "access": "admin:system:bsc"
+      },
+      {
+        "title": "行政大厅",
+        "access": "admin:system:xzdt"
+      },
+      {
+        "title": "收款账户",
+        "access": "admin:system:acount",
+        "children": [
+          {
+            "title": "收款账户列表管理",
+            "access": "admin:system:acount:list"
+          }
+        ]
+      }
+    ]
+  }
+]
